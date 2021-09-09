@@ -11,13 +11,13 @@ const FloorPlan = () => {
     return (
         <div>
             I am the FloorPlan
-            <Bedroom bedNUm1={1} />
+            <Bedroom bedNUm={'1'} />
             <Kitchen />
-            <Bath size="full"/>
-            <Bedroom bedNUm2={2} />
+            <Bath size="full "/>
+            <Bedroom bedNUm={'2'} />
             <LivingRoom />
-             <Bath />
-            <Bedroom bedNUm3={3} />
+             <Bath size="half "/>
+            <Bedroom bedNUm={'3'} />
             
         </div>
     )
