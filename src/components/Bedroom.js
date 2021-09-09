@@ -4,8 +4,8 @@ const Bedroom = (props) => {
     // console.log(props)
     return (
         <div className="bedroom"
-        id={`bed-${props.bedNum}`}>
-        Bedroom {props.bedNum}
+        id={`bed-${props.number}`}>
+        Bedroom {props.number}
            
         </div>
     )

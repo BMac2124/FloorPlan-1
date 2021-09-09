@@ -8,16 +8,17 @@ import Bath from "./Bath"
 
 
 const FloorPlan = () => {
+    
     return (
         <div>
             I am the FloorPlan
-            <Bedroom bedNUm={'1'} />
+            <Bedroom number=' 1'/>
             <Kitchen />
-            <Bath size="full "/>
-            <Bedroom bedNUm={'2'} />
+            <Bath size="Full "/>
+            <Bedroom number=' 2' />
             <LivingRoom />
-             <Bath size="half "/>
-            <Bedroom bedNUm={'3'} />
+             <Bath size="Half "/>
+            <Bedroom number=' 3' />
             
         </div>
     )
